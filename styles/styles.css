@@ -1,0 +1,126 @@
+body {
+	font-family: 'Poppins', sans-serif;
+  	box-sizing: content-box;
+}
+
+#mainPage{
+	background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(76, 71, 71, 0.9)), url(../images/main-cover-image.jpg) no-repeat center;
+  	position: relative;
+  	background-size: cover;
+  	height: 650px;
+}
+
+.carousel{
+	color: white;
+}
+
+.row{
+	margin: 0 auto;
+}
+
+.main {
+	padding-top: 200px;
+}
+
+.carousel-indicators{
+	padding-top: 50px;
+}
+
+.carousel-item{
+	text-align: center;
+}
+
+#mainPage .carousel-inner {
+	padding: 50px 150px;
+}
+
+.fas{
+	color: #437e57;
+	margin: 30px;
+  font-size: 50px;
+}
+
+.list-group-flush .list-group-item {
+	background-color: #f8f9fa;
+	border-color: #437e57;
+}
+
+hr{
+  max-width: 1200px;
+  border-color: #0ba1a4;
+}
+
+
+/* ---------------- Footer ---------------- */
+
+footer{
+  padding-top: 50px 50px;
+  background-color: #f8f7f7;
+  width: 100%;
+}
+
+.footer-info{
+  text-align: center;
+}
+footer p{
+  margin: 10px;
+}
+
+footer .copyright{
+  color: black;
+  text-align: center;
+}
+
+#myFooter hr{
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contacts a{
+	color: orange;
+}
+
+.contacts li{
+	list-style-type: none;
+}
+
+@media only screen and (max-width: 770px) {
+	#mainPage .carousel-inner {
+	    padding: 40px 20px;
+	}
+  #mainPage .carousel-item div{
+    font-size: 1.5em;
+  }
+  #mainPage .carousel-item span{
+  	margin-top: 40px;
+    font-size: 1em;
+  }
+}
