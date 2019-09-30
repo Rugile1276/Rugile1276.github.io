@@ -1,6 +1,6 @@
 body {
-	font-family: 'Poppins', sans-serif;
-  	box-sizing: content-box;
+	  font-family: 'Poppins', sans-serif;
+  	box-sizing: border-box;
 }
 
 #mainPage{
@@ -114,10 +114,15 @@ footer .copyright{
 
 .goUp {
   background-color: #437e57;
+  width: 200px;
 }
 
 .goUp:hover {
   background-color: #437e57;
+}
+
+#carouselExampleControls3, #carouselExampleControls2{
+  padding-top: 100px;
 }
 @media only screen and (max-width: 770px) {
 	#mainPage .carousel-inner {
