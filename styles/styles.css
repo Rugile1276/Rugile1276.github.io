@@ -125,9 +125,10 @@ footer .copyright{
   background-color: #437e57;
 }
 
-#carouselExampleControls3, #carouselExampleControls2{
+#carouselExampleControls3, #carouselExampleControls2, .carousel-control-next, .carousel-control-prev {
   padding-top: 100px;
 }
+
 @media only screen and (max-width: 770px) {
 	#mainPage .carousel-inner {
 	    padding: 40px 20px;
