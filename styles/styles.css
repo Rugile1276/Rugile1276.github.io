@@ -125,8 +125,17 @@ footer .copyright{
   background-color: #437e57;
 }
 
-#carouselExampleControls3, #carouselExampleControls2, .carousel-control-next, .carousel-control-prev {
-  padding-top: 100px;
+#carouselExampleControls3, #carouselExampleControls2, .carousel-control-next, .carousel-control-prev, .carousel-inner {
+  padding-top: 120px;
+}
+
+#services .background{
+  height: 100%;
+}
+
+.col-md5, .col-md-7{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 @media only screen and (max-width: 770px) {
@@ -139,5 +148,16 @@ footer .copyright{
   #mainPage .carousel-item span{
   	margin-top: 40px;
     font-size: 1em;
+  }
+
+  #services .background{
+    margin: 10px 0;
+  }
+  #services .trans{
+    margin-top: 30px;
+  }
+
+  #carouselExampleControls3, #carouselExampleControls2, .carousel-control-next, .carousel-control-prev, .carousel-inner {
+    padding-top: 20px;
   }
 }
